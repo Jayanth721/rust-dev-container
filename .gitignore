@@ -1,0 +1,26 @@
+# Rust target directory (build artifacts)
+target/
+
+# Rust dependencies
+**/Cargo.toml.orig
+
+# Rust test output
+**/debug
+**/release
+
+# Rust compilation logs
+**/build/
+**/*.rs.bk
+
+# VS Code DevContainer-specific files
+.devcontainer/.env
+.devcontainer/devcontainer.json
+.vscode/
+
+# Editor and OS-specific files
+.idea/
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
