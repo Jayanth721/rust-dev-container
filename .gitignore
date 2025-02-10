@@ -12,11 +12,6 @@ target/
 **/build/
 **/*.rs.bk
 
-# VS Code DevContainer-specific files
-.devcontainer/.env
-.devcontainer/devcontainer.json
-.vscode/
-
 # Editor and OS-specific files
 .idea/
 *.swp
